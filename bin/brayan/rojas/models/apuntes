@@ -1,0 +1,47 @@
+jdbc ?
+
+/*
+La API JDBC define las interfaces y clases Java™ 
+que utilizan los programadores para conectar con bases de datos
+y enviar consultas. 
+Un controlador JDBC implementa dichas interfaces y clases 
+para un determinado proveedor de DBMS.
+*/
+
+java data base connectivity
+// conectividad de base de datos - java
+
+basicamente JDBC se trata de un driver que sirve como puente para 
+conectar apps java con bases de datos.
+
+JDBC nos permite establecer una conexion con un sgbd
+y manipulacion de datos utilizando SQL
+
+
+Proceso acceso a BD.
+
+1-establecer conexion
+2-crear un objetto statement
+3-ejecutar sentencia SQL -> retorna obj ResulSet
+4 - leer result set
+
+
+jdbc   oracle       	configConn
+drver protocolo_driver  detalle driver
+
+-- USER HR PW12345
+
+
+1. TENER INSTALADO ORACLE (oracle se ejecuta en un server)
+//2. instalar en la maquina el driver para oracle
+3. agregar driver al classpath -- add library ojdbc8.jar
+
+prepareStatement :  prevenir inyeccion sql
+
+
+
+
+
+
+
+
